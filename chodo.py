@@ -4,7 +4,7 @@ import datetime
 import os
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('8377162532:AAEEd79vy3XioYfAsHQ76ncgjnDSpnG9ZRQ')
+bot = telebot.TeleBot('8524089850:AAHR65Ha6gvEs_0wOM6PC4oWnSmYaodAtEM')
 
 # Admin user IDs
 admin_id = {"1918024305"}
@@ -449,3 +449,4 @@ while True:
         bot.polling(none_stop=True)
     except Exception as e:
         print(e)
+
